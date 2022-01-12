@@ -1,0 +1,8 @@
+.navLink{
+    color: wheat;
+}
+.navLink:hover{
+    
+    border-bottom: 2px solid wheat;
+    
+}

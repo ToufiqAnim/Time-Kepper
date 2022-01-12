@@ -1,0 +1,72 @@
+[
+    {
+        "key":"1",
+        "name":"Bulova Classic",
+        "price":379,
+        "image":"https://www.watchshopping.com/media/catalog/product/image/B/u/Bulova-Classic-98B348.jpg"
+
+    },
+    {
+        "key":"2",
+        "name":"BULOVA Chronograph",
+        "price":449,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/MIL_20SHIPS_076e73a0-b52a-454f-a092-90b85112aa9a_grande.png?v=1633208253"
+
+    },
+    {
+        "key":"3",
+        "name":"BULOVA Hack",
+        "price":249,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/Lunar_20Pilot_grande.png?v=1633209328"
+
+    },
+    {
+        "key":"4",
+        "name":"BULOVA Marine Star",
+        "price":349,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/96A254_grande.png?v=1629978465"
+
+    },
+    {
+        "key":"5",
+        "name":"BULOVA PHANTOM",
+        "price":425,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/98L283_grande.png?v=1629978551"
+
+    },
+    {
+        "key":"6",
+        "name":"BULOVA Oceanographe",
+        "price":379,
+        "image":"https://www.watchshopping.com/media/catalog/product/image/B/u/Bulova-Oceanographer-96B320.jpg"
+
+    },
+    {
+        "key":"7",
+        "name":"BULOVA 50TH ANNIVERSARY LUNAR PILOT LE",
+        "price":399,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/Lunar_20Pilot_grande.png?v=1633209328"
+
+    },
+    {
+        "key":"8",
+        "name":"BULOVA CRYSTAL",
+        "price":559,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/96B375_grande.png?v=1629978496"
+
+    },
+    {
+        "key":"9",
+        "name":"BULOVA SUTTON",
+        "price":275,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/96A269_grande.png?v=1629978518"
+
+    },
+    {
+        "key":"10",
+        "name":"BULOVA SURVEYOR",
+        "price":650,
+        "image":"https://cdn.shopify.com/s/files/1/1128/6670/products/96A270_grande.png?v=1629978523"
+
+    }
+]

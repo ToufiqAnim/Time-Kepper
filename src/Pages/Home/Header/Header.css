@@ -1,0 +1,30 @@
+.bg-img{
+    background-image: url('../../../images/watch.jpg');
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+}
+.banner-text{
+position: absolute;
+   top: 40%;
+}
+.button{
+    background-color: none;
+    border: 1px solid wheat ;
+    background-color: transparent;
+    color: wheat;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    
+}
+.banner-text{
+    border-left: 4px solid wheat;
+    padding-left: 40px ;
+}
