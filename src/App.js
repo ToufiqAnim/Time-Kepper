@@ -1,11 +1,10 @@
 
 import './App.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Navigation from './Pages/Shared/Navigation/Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home/Home';
 import Watches from './Pages/Watches/Watches';
-import Header from './Pages/Home/Header/Header';
+import Footer from './Pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +23,7 @@ function App() {
           <Home></Home>
         </Route>
       </Switch>
+      <Footer></Footer>
       </BrowserRouter>
     </div>
   );

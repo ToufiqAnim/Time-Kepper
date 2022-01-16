@@ -1,12 +1,12 @@
 import React from 'react';
 import {  Col, Container, Row } from 'react-bootstrap';
 import watch from '../../../images/watch.jpg'
-import Watches from '../../Watches/Watches';
+
 
 import './Header.css'
 const Header = () => {
     return (
-        <div className='bg-img' style={{watch}}>
+        <div className='bg-img header' style={{watch}}>
            
            <Container>
                <Row>

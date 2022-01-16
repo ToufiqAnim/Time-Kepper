@@ -8,12 +8,12 @@ const Watch = ({watch}) => {
         <Container>
             
            <Card className='my-3' style={{border:'none', width:'100%', height:"550px", borderRadius:'15px'}}>
-            <div className='img-box '>
+            <div className='img-box'>
             <Card.Img variant="top" className=' image '  src={image} />
             <div className='img-overlay'></div>
             </div>
             <Card.Body className='text-center pt-2' >
-                <Card.Title className='fs-6'>{name}</Card.Title>
+                <p className='fs-6'>{name}</p>
                 <Card.Text  >
                     ${price}
                 </Card.Text>
