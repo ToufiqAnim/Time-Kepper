@@ -8,13 +8,14 @@ const Watches = () => {
     useEffect(()=> {
         fetch('./watches.json')
         .then(res => res.json())
-        .then(data => setWatches(data.slice(0,6)))
+        .then(data => setWatches(data.watches.slice(0,6)))
     },[])
     return (
         <div>
            
-            <h1 className="text-center">New Bulova Watch Collection</h1>
-            <Container className="watches-card">
+           <p className='text-center mt-5 mb-1' >Bullova Collection</p> <hr className=' mx-auto mt-0 ' style={{width:'90px'}}/>
+            <h1 className="text-center fw-bold"><strong style={{color:'#eec277'}}> FEATURED </strong> <strong>WATCHES</strong></h1>
+            <Container className="watches-card" >
                 {
                    watches.map(watch => <Watch
                    key={watch.key}

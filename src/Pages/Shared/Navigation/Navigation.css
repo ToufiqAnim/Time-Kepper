@@ -1,8 +1,22 @@
+.navbar{
+   
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    top: 0;
+    z-index: 999;
+}
+.navbar.active{
+    background: rgba(0, 0, 0, .9)
+}
 .navLink{
     color: wheat;
 }
 .navLink:hover{
     
     border-bottom: 2px solid wheat;
+   
     
 }
