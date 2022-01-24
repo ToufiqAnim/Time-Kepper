@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import './Footer.css'
 const Footer = () => {
     return (
-        <div className='footer text-center  mt-5' style={{height:'400px'}}>
+        <div className='footer text-center  pt-5' style={{height:'400px'}}>
             <Container className='footer-container'>
             <h5 className='mb-4'>JOIN NOW AND GET 15% OFF</h5>
             

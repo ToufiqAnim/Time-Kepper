@@ -7,9 +7,9 @@ const Watch = ({watch}) => {
     return (
         <Container>
             
-           <Card className='my-3' style={{border:'none', width:'100%', height:"550px", borderRadius:'15px'}}>
+           <Card className='my-2 watch-card p-0' style={{border:'none', width:'100%', height:"525px"}}>
             <div className='img-box'>
-            <Card.Img variant="top" className=' image '  src={image} />
+            <Card.Img variant="top" className=' image '  src={image} style={{borderRadius:'20px'}}/>
             <div className='img-overlay'></div>
             </div>
             <Card.Body className='text-center pt-2' >

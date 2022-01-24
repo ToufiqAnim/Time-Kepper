@@ -4,8 +4,9 @@ import './Discount.css';
 const Discount = () => {
     
     return (
-       <Container className='discount mt-5'>
-           <Card className='my-3 discount-card' >
+        <div style={{backgroundColor:'#f7f7f7'}}>
+       <Container className='discount pt-5 pb-5' >
+           <Card className='my-3 discount-card'>
 
             <div className='discount-imgBox'>
             <Card.Img variant="top" className=' discount-img img-fluid'  src="https://i.ibb.co/3758CrW/Maverick-Camo-Blue-Pack-Shot-1140x1140-2.png"/>
@@ -41,6 +42,7 @@ const Discount = () => {
             </Card.Body>
             </Card>
        </Container>
+       </div>
     );
 };
 

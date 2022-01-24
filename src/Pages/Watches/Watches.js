@@ -11,11 +11,11 @@ const Watches = () => {
         .then(data => setWatches(data.watches.slice(0,6)))
     },[])
     return (
-        <div>
+        <div style={{backgroundColor:'#f7f7f7'}}>
            
-           <p className='text-center mt-5 mb-1' >NEW COLLECTION</p> <hr className=' mx-auto mt-0 ' style={{width:'90px'}}/>
+           <p className='text-center pt-5 mb-1' >NEW COLLECTION</p> <hr className=' mx-auto mt-0 ' style={{width:'90px'}}/>
             <h1 className="text-center fw-bold"><strong style={{color:'#eec277'}}> FEATURED </strong> <strong>WATCHES</strong></h1>
-            <Container className="watches-card" >
+            <Container className="watches-card pb-5" >
                 {
                    watches.map(watch => <Watch
                    key={watch.key}

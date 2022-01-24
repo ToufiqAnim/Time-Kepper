@@ -5,10 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home/Home';
 import Watches from './Pages/Watches/Watches';
 import Footer from './Pages/Shared/Footer/Footer';
+import Login from './Pages/Contact/Login/Login';
+import Register from './Pages/Contact/Register/Register';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <BrowserRouter>
      
       
@@ -18,6 +20,12 @@ function App() {
         </Route>
         <Route path='/watches'>
           <Watches></Watches>
+        </Route>
+        <Route path='/login'>
+          <Login></Login>
+        </Route>
+        <Route path='/register'>
+          <Register></Register>
         </Route>
         <Route path='/'>
           <Home></Home>

@@ -6,15 +6,15 @@ import './SpecialWatches.css';
 const SpecialWatches = () => {
    
     return (
-        <div className="specialWatch">
-            <p className='text-center  mt-5 mb-1'>Best Choices</p><hr className=' mx-auto mt-0 ' style={{width:'100px'}}/>
+        <div className="specialWatch" style={{backgroundColor:'#f7f7f7'}}>
+            <p className='text-center  pt-5 mb-1'>Best Choices</p><hr className=' mx-auto mt-0 ' style={{width:'100px'}}/>
             <h1 className='text-center fw-bold'><strong className='' style={{color:'#eec277'}}>SPECIAL </strong><strong>EDITION</strong></h1>
             <div >
-            <Carousel variant="dark mt-5 mb-5" style={{height:'475px'}} >
+            <Carousel variant="dark mt-5 pb-5" style={{height:'475px'}} >
                  <Carousel.Item className='carousel-item'>
                 
                    
-                    <Card className="special-card border-0" style={{ width: "100%"}}>
+                    <Card className="special-card border-0" style={{ width: "100%", backgroundColor:'#f7f7f7'}}>
                       
                         <Card.Img  className="cardImg" variant="top" src="https://cdn.shopify.com/s/files/1/2784/4648/products/FusionGreen-Packshot_1140x1140.png?v=1626268166" />
                        
@@ -39,7 +39,7 @@ const SpecialWatches = () => {
                 <Carousel.Item className='carousel-item'>
                 
                   
-                      <Card className="special-card border-0" style={{ width: '100%' }}>
+                      <Card className="special-card border-0" style={{ width: '100%', backgroundColor:'#f7f7f7' }}>
                         <Card.Img className="cardImg" variant="top" src="https://cdn.shopify.com/s/files/1/2784/4648/products/TheMomentumRoseGoldWatchPackshot_1140x1140.png?v=1631550546" />
 
                         <Card.Body className="cardBody">
@@ -61,7 +61,7 @@ const SpecialWatches = () => {
                 </Carousel.Item>
                 <Carousel.Item className='carousel-item'>
                 
-                      <Card className="special-card border-0" style={{ width: '100%' }}>
+                      <Card className="special-card border-0" style={{ width: '100%' , backgroundColor:'#f7f7f7'}}>
 
                         <Card.Img className="cardImg" variant="top" src="https://cdn.shopify.com/s/files/1/2784/4648/products/MilanGreenPackshot_1140x1140.png?v=1608221003" />
 
@@ -80,7 +80,7 @@ const SpecialWatches = () => {
                 </Carousel.Item>
                 <Carousel.Item className='carousel-item'>
                 
-                      <Card className="special-card border-0" style={{ width: '100%' }}>
+                      <Card className="special-card border-0" style={{ width: '100%' , backgroundColor:'#f7f7f7'}}>
                         <Card.Img className="cardImg" variant="top"   src="https://cdn.shopify.com/s/files/1/2784/4648/products/PragueDeluxeBlack-Packshot_1140x1140.png?v=1624385176" />
 
                         <Card.Body className="cardBody">
