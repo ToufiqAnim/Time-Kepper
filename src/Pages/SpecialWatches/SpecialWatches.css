@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+.specialWatch{
+    font-family: 'Oswald', sans-serif;
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.special-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    
+}
+.special-btn{
+    background-color: transparent;
+    color: #eec277;
+    font-weight:    bold;
+    margin-right:5px;
+    border: 2px solid #eec277;
+    
+}
+.cardImg{
+    width:400px;
+    position: relative;
+    left: 50%;
+}
+
+.cardBody{
+    width: 80%;
+    font-weight: 400;
+}
+.watchDetails{
+    line-height: 1.5;
+    font-size: 15px;
+}
+@media screen and (max-width:688px) {
+    .specialWatch{
+        height:720px
+    }
+    .special-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardImg{
+        margin-right: 100%;
+    }
+}
+@media  screen and (min-width:689px) and (max-width: 1024px){
+    .special-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .cardImg{
+        width: 400px;
+       position: relative;
+       left: 0%;
+    }
+    .cardBody{
+        width: 100%;
+    }
+} 

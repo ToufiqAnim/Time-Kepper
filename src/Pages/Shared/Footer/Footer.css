@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+
+.footer{
+    
+    background: url(https://demo1.leotheme.com/leo_flinque_demo/themes/leo_flinque/assets/img/modules/appagebuilder/images/home5-img9.jpg) repeat 0 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f7f7f7;
+}
+.footer-container{
+    position: relative;
+    top:15%
+}
+.footer-button button{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
+.footer-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=email]{
+    width:450px;
+    border: 1px solid lightgrey;
+    padding: 11px;
+}
+input[type=button]{
+    background: #cca055;
+    color:white;
+    font-size: .75rem;
+    font-weight: bold;
+    letter-spacing:3px;
+    padding:15px 50px;
+    border: none;
+}

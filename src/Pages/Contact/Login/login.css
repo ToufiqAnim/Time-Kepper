@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+.form-container{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.email{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+.password{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button{
+    border: none;
+    background: #be603e;
+    color:white;
+    font-weight: bold;
+    transition: .3s ease;
+}
+.login-button:hover{
+    background: black;
+    color:white
+}
+.formText:hover{
+    color: #be603e;
+}
+.loginAccess{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+
+}
+.loginAccess-line{
+    height: 1px;
+    width: 25%;
+    background-color: #dedede;
+}
+.loginAccess-text{
+    white-space: nowrap;
+    margin: 0px 8px 2px;
+}
+.iconBtn{
+    border:1px solid #dedede;
+}
+.iconBtn:hover{
+    border: 1px solid black;
+}
